@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemoApp", "SimpleDemoApp\SimpleDemoApp.csproj", "{B43667BD-6149-4A94-A688-4AB23BB509B5}"
 EndProject
@@ -10,8 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement", "OrderManagement\OrderManagement.csproj", "{856B0A64-B799-4300-A315-F4E1EB0FEF4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemoApp.WebDriver", "SimpleDemoApp.WebDriver\SimpleDemoApp.WebDriver.csproj", "{241E7CA0-51B4-4EDE-AEC2-5974CD581567}"
-EndProject
-Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SimpleDemoApp.ARM", "SimpleDemoApp.ARM\SimpleDemoApp.ARM.deployproj", "{C8F58483-7BA1-444C-864A-57CBEB08C27C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{241E7CA0-51B4-4EDE-AEC2-5974CD581567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{241E7CA0-51B4-4EDE-AEC2-5974CD581567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{241E7CA0-51B4-4EDE-AEC2-5974CD581567}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8F58483-7BA1-444C-864A-57CBEB08C27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8F58483-7BA1-444C-864A-57CBEB08C27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8F58483-7BA1-444C-864A-57CBEB08C27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8F58483-7BA1-444C-864A-57CBEB08C27C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
