@@ -19,7 +19,7 @@ namespace SimpleDemoApp.WebDriver
         public static void ClassInit(TestContext context)
         {
             // Chrome specifics
-            _webDriver = new ChromeDriver(@"C:\Tools");
+            _webDriver = new ChromeDriver(@"C:\tools\selenium");
 
             //Set page load timeout to 20 seconds (occasionally 5 secs is too tight after a deployment)
             _webDriver.Manage().Timeouts().SetPageLoadTimeout(TimeSpan.FromSeconds(20));
