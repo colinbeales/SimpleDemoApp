@@ -31,6 +31,8 @@
     <Content Include="Deploy-AzureResourceGroup.ps1" />
     <Content Include="WebSite.json" />
     <Content Include="WebSite.parameters.json" />
+    <Content Include="MultiVMonLBwithNAT.json" />
+    <Content Include="MultiVMonLBwithNAT.parameters.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
